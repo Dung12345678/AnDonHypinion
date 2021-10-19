@@ -1,0 +1,104 @@
+D:\project\Sumitomo\PM\Current\SumitomoBackup-28-01-2021-Current1\SumitomoBackup-28-01-2021-Dao-Jig\HPBusiness\obj\x86\Debug\HPBusiness.csprojAssemblyReference.cache
+D:\project\Sumitomo\PM\Current\SumitomoBackup-28-01-2021-Current1\SumitomoBackup-28-01-2021-Dao-Jig\HPBusiness\obj\x86\Debug\HPBusiness.csproj.GenerateResource.cache
+D:\project\Sumitomo\PM\Current\SumitomoBackup-28-01-2021-Current1\SumitomoBackup-28-01-2021-Dao-Jig\HPBusiness\obj\x86\Debug\HPBusiness.csproj.CoreCompileInputs.cache
+D:\project\Sumitomo\PM\Current\SumitomoBackup-28-01-2021-Current1\SumitomoBackup-28-01-2021-Dao-Jig\HPBusiness\obj\x86\Debug\HPBusiness.Properties.Resources.resources
+D:\project\Sumitomo\PM\Current\SumitomoBackup-28-01-2021-Current1\SumitomoBackup-28-01-2021-Dao-Jig\HPBusiness\bin\x86\Debug\HPBusiness.dll
+D:\project\Sumitomo\PM\Current\SumitomoBackup-28-01-2021-Current1\SumitomoBackup-28-01-2021-Dao-Jig\HPBusiness\bin\x86\Debug\HPBusiness.pdb
+D:\project\Sumitomo\PM\Current\SumitomoBackup-28-01-2021-Current1\SumitomoBackup-28-01-2021-Dao-Jig\HPBusiness\obj\x86\Debug\HPBusiness.dll
+D:\project\Sumitomo\PM\Current\SumitomoBackup-28-01-2021-Current1\SumitomoBackup-28-01-2021-Dao-Jig\HPBusiness\obj\x86\Debug\HPBusiness.pdb
+D:\project\Sumitomo\PM\Current\SumitomoBackup-28-01-2021-Dao-Jig\HPBusiness\bin\x86\Debug\HPBusiness.dll
+D:\project\Sumitomo\PM\Current\SumitomoBackup-28-01-2021-Dao-Jig\HPBusiness\bin\x86\Debug\HPBusiness.pdb
+D:\project\Sumitomo\PM\Current\SumitomoBackup-28-01-2021-Dao-Jig\HPBusiness\obj\x86\Debug\HPBusiness.csprojAssemblyReference.cache
+D:\project\Sumitomo\PM\Current\SumitomoBackup-28-01-2021-Dao-Jig\HPBusiness\obj\x86\Debug\HPBusiness.Properties.Resources.resources
+D:\project\Sumitomo\PM\Current\SumitomoBackup-28-01-2021-Dao-Jig\HPBusiness\obj\x86\Debug\HPBusiness.csproj.GenerateResource.cache
+D:\project\Sumitomo\PM\Current\SumitomoBackup-28-01-2021-Dao-Jig\HPBusiness\obj\x86\Debug\HPBusiness.csproj.CoreCompileInputs.cache
+D:\project\Sumitomo\PM\Current\SumitomoBackup-28-01-2021-Dao-Jig\HPBusiness\obj\x86\Debug\HPBusiness.dll
+D:\project\Sumitomo\PM\Current\SumitomoBackup-28-01-2021-Dao-Jig\HPBusiness\obj\x86\Debug\HPBusiness.pdb
+D:\project\Sumitomo\PM\Current\SumitomoBackup-15-05-2021 - Copy\HPBusiness\bin\x86\Debug\HPBusiness.dll
+D:\project\Sumitomo\PM\Current\SumitomoBackup-15-05-2021 - Copy\HPBusiness\bin\x86\Debug\HPBusiness.pdb
+D:\project\Sumitomo\PM\Current\SumitomoBackup-15-05-2021 - Copy\HPBusiness\obj\x86\Debug\HPBusiness.csprojAssemblyReference.cache
+D:\project\Sumitomo\PM\Current\SumitomoBackup-15-05-2021 - Copy\HPBusiness\obj\x86\Debug\HPBusiness.Properties.Resources.resources
+D:\project\Sumitomo\PM\Current\SumitomoBackup-15-05-2021 - Copy\HPBusiness\obj\x86\Debug\HPBusiness.csproj.GenerateResource.cache
+D:\project\Sumitomo\PM\Current\SumitomoBackup-15-05-2021 - Copy\HPBusiness\obj\x86\Debug\HPBusiness.csproj.CoreCompileInputs.cache
+D:\project\Sumitomo\PM\Current\SumitomoBackup-15-05-2021 - Copy\HPBusiness\obj\x86\Debug\HPBusiness.dll
+D:\project\Sumitomo\PM\Current\SumitomoBackup-15-05-2021 - Copy\HPBusiness\obj\x86\Debug\HPBusiness.pdb
+D:\project\Sumitomo\AnDonPinion\LineHypinion\HPBusiness\bin\x86\Debug\HPBusiness.dll
+D:\project\Sumitomo\AnDonPinion\LineHypinion\HPBusiness\bin\x86\Debug\HPBusiness.pdb
+D:\project\Sumitomo\AnDonPinion\LineHypinion\HPBusiness\obj\x86\Debug\HPBusiness.csprojAssemblyReference.cache
+D:\project\Sumitomo\AnDonPinion\LineHypinion\HPBusiness\obj\x86\Debug\HPBusiness.Properties.Resources.resources
+D:\project\Sumitomo\AnDonPinion\LineHypinion\HPBusiness\obj\x86\Debug\HPBusiness.csproj.GenerateResource.cache
+D:\project\Sumitomo\AnDonPinion\LineHypinion\HPBusiness\obj\x86\Debug\HPBusiness.csproj.CoreCompileInputs.cache
+D:\project\Sumitomo\AnDonPinion\LineHypinion\HPBusiness\obj\x86\Debug\HPBusiness.dll
+D:\project\Sumitomo\AnDonPinion\LineHypinion\HPBusiness\obj\x86\Debug\HPBusiness.pdb
+D:\project\Sumitomo\AnDonPinion\LineHypinion - Copy\HPBusiness\bin\x86\Debug\HPBusiness.dll
+D:\project\Sumitomo\AnDonPinion\LineHypinion - Copy\HPBusiness\bin\x86\Debug\HPBusiness.pdb
+D:\project\Sumitomo\AnDonPinion\LineHypinion - Copy\HPBusiness\obj\x86\Debug\HPBusiness.csprojAssemblyReference.cache
+D:\project\Sumitomo\AnDonPinion\LineHypinion - Copy\HPBusiness\obj\x86\Debug\HPBusiness.Properties.Resources.resources
+D:\project\Sumitomo\AnDonPinion\LineHypinion - Copy\HPBusiness\obj\x86\Debug\HPBusiness.csproj.GenerateResource.cache
+D:\project\Sumitomo\AnDonPinion\LineHypinion - Copy\HPBusiness\obj\x86\Debug\HPBusiness.csproj.CoreCompileInputs.cache
+D:\project\Sumitomo\AnDonPinion\LineHypinion - Copy\HPBusiness\obj\x86\Debug\HPBusiness.dll
+D:\project\Sumitomo\AnDonPinion\LineHypinion - Copy\HPBusiness\obj\x86\Debug\HPBusiness.pdb
+D:\project\Sumitomo\AnDonPinion\LineHypinionNhapMotor\HPBusiness\bin\x86\Debug\HPBusiness.dll
+D:\project\Sumitomo\AnDonPinion\LineHypinionNhapMotor\HPBusiness\bin\x86\Debug\HPBusiness.pdb
+D:\project\Sumitomo\AnDonPinion\LineHypinionNhapMotor\HPBusiness\obj\x86\Debug\HPBusiness.csprojAssemblyReference.cache
+D:\project\Sumitomo\AnDonPinion\LineHypinionNhapMotor\HPBusiness\obj\x86\Debug\HPBusiness.Properties.Resources.resources
+D:\project\Sumitomo\AnDonPinion\LineHypinionNhapMotor\HPBusiness\obj\x86\Debug\HPBusiness.csproj.GenerateResource.cache
+D:\project\Sumitomo\AnDonPinion\LineHypinionNhapMotor\HPBusiness\obj\x86\Debug\HPBusiness.csproj.CoreCompileInputs.cache
+D:\project\Sumitomo\AnDonPinion\LineHypinionNhapMotor\HPBusiness\obj\x86\Debug\HPBusiness.dll
+D:\project\Sumitomo\AnDonPinion\LineHypinionNhapMotor\HPBusiness\obj\x86\Debug\HPBusiness.pdb
+D:\project\Sumitomo\AnDonPinion\LineHypinionNhapMotor - Copy\HPBusiness\bin\x86\Debug\HPBusiness.dll
+D:\project\Sumitomo\AnDonPinion\LineHypinionNhapMotor - Copy\HPBusiness\bin\x86\Debug\HPBusiness.pdb
+D:\project\Sumitomo\AnDonPinion\LineHypinionNhapMotor - Copy\HPBusiness\obj\x86\Debug\HPBusiness.csprojAssemblyReference.cache
+D:\project\Sumitomo\AnDonPinion\LineHypinionNhapMotor - Copy\HPBusiness\obj\x86\Debug\HPBusiness.Properties.Resources.resources
+D:\project\Sumitomo\AnDonPinion\LineHypinionNhapMotor - Copy\HPBusiness\obj\x86\Debug\HPBusiness.csproj.GenerateResource.cache
+D:\project\Sumitomo\AnDonPinion\LineHypinionNhapMotor - Copy\HPBusiness\obj\x86\Debug\HPBusiness.csproj.CoreCompileInputs.cache
+D:\project\Sumitomo\AnDonPinion\LineHypinionNhapMotor - Copy\HPBusiness\obj\x86\Debug\HPBusiness.dll
+D:\project\Sumitomo\AnDonPinion\LineHypinionNhapMotor - Copy\HPBusiness\obj\x86\Debug\HPBusiness.pdb
+D:\project\Sumitomo\AnDonPinion\LineHypinionTachMa\HPBusiness\bin\x86\Debug\HPBusiness.dll
+D:\project\Sumitomo\AnDonPinion\LineHypinionTachMa\HPBusiness\bin\x86\Debug\HPBusiness.pdb
+D:\project\Sumitomo\AnDonPinion\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.csprojAssemblyReference.cache
+D:\project\Sumitomo\AnDonPinion\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.Properties.Resources.resources
+D:\project\Sumitomo\AnDonPinion\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.csproj.GenerateResource.cache
+D:\project\Sumitomo\AnDonPinion\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.csproj.CoreCompileInputs.cache
+D:\project\Sumitomo\AnDonPinion\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.dll
+D:\project\Sumitomo\AnDonPinion\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.pdb
+D:\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\bin\x86\Debug\HPBusiness.dll
+D:\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\bin\x86\Debug\HPBusiness.pdb
+D:\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.csproj.AssemblyReference.cache
+D:\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.Properties.Resources.resources
+D:\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.csproj.GenerateResource.cache
+D:\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.csproj.CoreCompileInputs.cache
+D:\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.dll
+D:\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.pdb
+C:\Users\T3DCOMPUTER\Documents\LineHypinionTachMa\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\bin\x86\Debug\HPBusiness.dll
+C:\Users\T3DCOMPUTER\Documents\LineHypinionTachMa\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\bin\x86\Debug\HPBusiness.pdb
+C:\Users\T3DCOMPUTER\Documents\LineHypinionTachMa\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.csproj.AssemblyReference.cache
+C:\Users\T3DCOMPUTER\Documents\LineHypinionTachMa\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.Properties.Resources.resources
+C:\Users\T3DCOMPUTER\Documents\LineHypinionTachMa\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.csproj.GenerateResource.cache
+C:\Users\T3DCOMPUTER\Documents\LineHypinionTachMa\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.csproj.CoreCompileInputs.cache
+C:\Users\T3DCOMPUTER\Documents\LineHypinionTachMa\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.dll
+C:\Users\T3DCOMPUTER\Documents\LineHypinionTachMa\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.pdb
+D:\LineHypinionTachMa\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\bin\x86\Debug\HPBusiness.dll
+D:\LineHypinionTachMa\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\bin\x86\Debug\HPBusiness.pdb
+D:\LineHypinionTachMa\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.csproj.AssemblyReference.cache
+D:\LineHypinionTachMa\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.Properties.Resources.resources
+D:\LineHypinionTachMa\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.csproj.GenerateResource.cache
+D:\LineHypinionTachMa\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.csproj.CoreCompileInputs.cache
+D:\LineHypinionTachMa\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.dll
+D:\LineHypinionTachMa\LineHypinionTachMa\LineHypinionTachMa\HPBusiness\obj\x86\Debug\HPBusiness.pdb
+D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion\HPBusiness\bin\x86\Debug\HPBusiness.dll
+D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion\HPBusiness\bin\x86\Debug\HPBusiness.pdb
+D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion\HPBusiness\obj\x86\Debug\HPBusiness.csproj.AssemblyReference.cache
+D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion\HPBusiness\obj\x86\Debug\HPBusiness.Properties.Resources.resources
+D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion\HPBusiness\obj\x86\Debug\HPBusiness.csproj.GenerateResource.cache
+D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion\HPBusiness\obj\x86\Debug\HPBusiness.csproj.CoreCompileInputs.cache
+D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion\HPBusiness\obj\x86\Debug\HPBusiness.dll
+D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion\HPBusiness\obj\x86\Debug\HPBusiness.pdb
+D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion - Copy\HPBusiness\bin\x86\Debug\HPBusiness.dll
+D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion - Copy\HPBusiness\bin\x86\Debug\HPBusiness.pdb
+D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion - Copy\HPBusiness\obj\x86\Debug\HPBusiness.csproj.AssemblyReference.cache
+D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion - Copy\HPBusiness\obj\x86\Debug\HPBusiness.Properties.Resources.resources
+D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion - Copy\HPBusiness\obj\x86\Debug\HPBusiness.csproj.GenerateResource.cache
+D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion - Copy\HPBusiness\obj\x86\Debug\HPBusiness.csproj.CoreCompileInputs.cache
+D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion - Copy\HPBusiness\obj\x86\Debug\HPBusiness.dll
+D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion - Copy\HPBusiness\obj\x86\Debug\HPBusiness.pdb

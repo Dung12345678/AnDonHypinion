@@ -1,0 +1,98 @@
+<Tables>
+
+	<Table>
+		<name>AutoAddShelfMotor</name>
+		<column>
+			<name>iD</name>
+			<dataType>int</dataType>
+			<isPK>true</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias></alias>
+			<number>0</number>
+		</column>
+		<column>
+			<name>worker</name>
+			<dataType>nvarchar</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Worker</alias>
+			<number>1</number>
+		</column>
+		<column>
+			<name>shelf</name>
+			<dataType>nvarchar</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Shelf</alias>
+			<number>2</number>
+		</column>
+		<column>
+			<name>serialNumber</name>
+			<dataType>nvarchar</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Serial Number</alias>
+			<number>3</number>
+		</column>
+		<column>
+			<name>saleNumBer</name>
+			<dataType>nvarchar</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Sale Num Ber</alias>
+			<number>4</number>
+		</column>
+		<column>
+			<name>qtySale</name>
+			<dataType>int</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Qty Sale</alias>
+			<number>5</number>
+		</column>
+		<column>
+			<name>qtyShelf</name>
+			<dataType>int</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Qty Shelf</alias>
+			<number>6</number>
+		</column>
+		<column>
+			<name>createDate</name>
+			<dataType>datetime</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Create Date</alias>
+			<number>7</number>
+		</column>
+		<column>
+			<name>articleID</name>
+			<dataType>nvarchar</dataType>
+			<isPK>false</isPK>
+			<isFK>false</isFK>
+			<isUnique>false</isUnique>
+			<tableRelate></tableRelate>
+			<alias>Article</alias>
+			<number>8</number>
+		</column>
+	</Table>
+
+</Tables>
+
