@@ -24127,11 +24127,11 @@ D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion - Copy\Forms\obj\x86
 D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion - Copy\Forms\obj\x86\Debug\BMS.frmTestta2.resources
 D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion - Copy\Forms\obj\x86\Debug\BMS.frmImportProductionPlanExcel.resources
 D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion - Copy\Forms\obj\x86\Debug\BMS.frmProductKnife.resources
-D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion - Copy\Forms\obj\x86\Debug\Forms.Tonghop.frmStageMachine.resources
 D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion - Copy\Forms\obj\x86\Debug\BMS.ucModel.resources
 D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion - Copy\Forms\obj\x86\Debug\Forms.csproj.GenerateResource.cache
-D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion - Copy\Forms\obj\x86\Debug\Forms.dll.licenses
 D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion - Copy\Forms\obj\x86\Debug\Forms.csproj.CoreCompileInputs.cache
 D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion - Copy\Forms\obj\x86\Debug\Forms.csproj.CopyComplete
 D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion - Copy\Forms\obj\x86\Debug\Forms.dll
 D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion - Copy\Forms\obj\x86\Debug\Forms.pdb
+D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion - Copy\Forms\obj\x86\Debug\BMS.frmStageMachine.resources
+D:\project\Sumitomo\AnDonPinion\AnDonHypinion\AnDonHypinion - Copy\Forms\obj\x86\Debug\Forms.dll.licenses

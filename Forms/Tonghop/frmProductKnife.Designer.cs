@@ -29,7 +29,12 @@ namespace BMS
         /// </summary>
         private void InitializeComponent()
         {
+			this.components = new System.ComponentModel.Container();
 			this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+			this.panel1 = new System.Windows.Forms.Panel();
+			this.label6 = new System.Windows.Forms.Label();
+			this.dtpDate = new System.Windows.Forms.DateTimePicker();
+			this.cbStage = new System.Windows.Forms.ComboBox();
 			this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
 			this.label17 = new System.Windows.Forms.Label();
 			this.label16 = new System.Windows.Forms.Label();
@@ -44,13 +49,12 @@ namespace BMS
 			this.label3 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
-			this.panel1 = new System.Windows.Forms.Panel();
-			this.label6 = new System.Windows.Forms.Label();
-			this.dtpDate = new System.Windows.Forms.DateTimePicker();
-			this.cbStage = new System.Windows.Forms.ComboBox();
+			this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+			this.configToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.tableLayoutPanel1.SuspendLayout();
-			this.tableLayoutPanel2.SuspendLayout();
 			this.panel1.SuspendLayout();
+			this.tableLayoutPanel2.SuspendLayout();
+			this.contextMenuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// tableLayoutPanel1
@@ -64,10 +68,56 @@ namespace BMS
 			this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(0);
 			this.tableLayoutPanel1.Name = "tableLayoutPanel1";
 			this.tableLayoutPanel1.RowCount = 2;
-			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.248227F));
-			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 94.75177F));
+			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 37F));
+			this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
 			this.tableLayoutPanel1.Size = new System.Drawing.Size(1223, 705);
 			this.tableLayoutPanel1.TabIndex = 0;
+			// 
+			// panel1
+			// 
+			this.panel1.Controls.Add(this.label6);
+			this.panel1.Controls.Add(this.dtpDate);
+			this.panel1.Controls.Add(this.cbStage);
+			this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.panel1.Location = new System.Drawing.Point(1, 1);
+			this.panel1.Margin = new System.Windows.Forms.Padding(1);
+			this.panel1.Name = "panel1";
+			this.panel1.Size = new System.Drawing.Size(1221, 35);
+			this.panel1.TabIndex = 1;
+			// 
+			// label6
+			// 
+			this.label6.AutoSize = true;
+			this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label6.Location = new System.Drawing.Point(32, 9);
+			this.label6.Name = "label6";
+			this.label6.Size = new System.Drawing.Size(96, 20);
+			this.label6.TabIndex = 2;
+			this.label6.Text = "Công đoạn";
+			// 
+			// dtpDate
+			// 
+			this.dtpDate.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.dtpDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+			this.dtpDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+			this.dtpDate.Location = new System.Drawing.Point(397, 6);
+			this.dtpDate.Name = "dtpDate";
+			this.dtpDate.Size = new System.Drawing.Size(133, 26);
+			this.dtpDate.TabIndex = 1;
+			this.dtpDate.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dtpDate_KeyDown);
+			// 
+			// cbStage
+			// 
+			this.cbStage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+			this.cbStage.FormattingEnabled = true;
+			this.cbStage.Items.AddRange(new object[] {
+            "a"});
+			this.cbStage.Location = new System.Drawing.Point(134, 5);
+			this.cbStage.Name = "cbStage";
+			this.cbStage.Size = new System.Drawing.Size(257, 28);
+			this.cbStage.TabIndex = 0;
+			this.cbStage.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+			this.cbStage.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cbStage_KeyDown);
 			// 
 			// tableLayoutPanel2
 			// 
@@ -296,66 +346,39 @@ namespace BMS
 			this.label1.Text = "Máy";
 			this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
-			// panel1
+			// contextMenuStrip1
 			// 
-			this.panel1.Controls.Add(this.label6);
-			this.panel1.Controls.Add(this.dtpDate);
-			this.panel1.Controls.Add(this.cbStage);
-			this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.panel1.Location = new System.Drawing.Point(1, 1);
-			this.panel1.Margin = new System.Windows.Forms.Padding(1);
-			this.panel1.Name = "panel1";
-			this.panel1.Size = new System.Drawing.Size(1221, 35);
-			this.panel1.TabIndex = 1;
+			this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+			this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.configToolStripMenuItem});
+			this.contextMenuStrip1.Name = "contextMenuStrip1";
+			this.contextMenuStrip1.Size = new System.Drawing.Size(136, 26);
 			// 
-			// label6
+			// configToolStripMenuItem
 			// 
-			this.label6.AutoSize = true;
-			this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label6.Location = new System.Drawing.Point(32, 7);
-			this.label6.Name = "label6";
-			this.label6.Size = new System.Drawing.Size(96, 20);
-			this.label6.TabIndex = 2;
-			this.label6.Text = "Công đoạn";
-			// 
-			// dtpDate
-			// 
-			this.dtpDate.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.dtpDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-			this.dtpDate.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-			this.dtpDate.Location = new System.Drawing.Point(397, 4);
-			this.dtpDate.Name = "dtpDate";
-			this.dtpDate.Size = new System.Drawing.Size(133, 26);
-			this.dtpDate.TabIndex = 1;
-			this.dtpDate.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dtpDate_KeyDown);
-			// 
-			// cbStage
-			// 
-			this.cbStage.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-			this.cbStage.FormattingEnabled = true;
-			this.cbStage.Items.AddRange(new object[] {
-            "a"});
-			this.cbStage.Location = new System.Drawing.Point(134, 3);
-			this.cbStage.Name = "cbStage";
-			this.cbStage.Size = new System.Drawing.Size(257, 28);
-			this.cbStage.TabIndex = 0;
-			this.cbStage.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
-			this.cbStage.KeyDown += new System.Windows.Forms.KeyEventHandler(this.cbStage_KeyDown);
+			this.configToolStripMenuItem.Name = "configToolStripMenuItem";
+			this.configToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F12;
+			this.configToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+			this.configToolStripMenuItem.Text = "Config";
+			this.configToolStripMenuItem.Visible = false;
+			this.configToolStripMenuItem.Click += new System.EventHandler(this.configToolStripMenuItem_Click);
 			// 
 			// frmProductKnife
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1223, 705);
+			this.ContextMenuStrip = this.contextMenuStrip1;
 			this.Controls.Add(this.tableLayoutPanel1);
 			this.Name = "frmProductKnife";
 			this.Text = "ANDON HYPINION";
 			this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
 			this.Load += new System.EventHandler(this.frmProductKnife_Load);
 			this.tableLayoutPanel1.ResumeLayout(false);
-			this.tableLayoutPanel2.ResumeLayout(false);
 			this.panel1.ResumeLayout(false);
 			this.panel1.PerformLayout();
+			this.tableLayoutPanel2.ResumeLayout(false);
+			this.contextMenuStrip1.ResumeLayout(false);
 			this.ResumeLayout(false);
 
         }
@@ -381,5 +404,7 @@ namespace BMS
         private System.Windows.Forms.DateTimePicker dtpDate;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox cbStage;
-    }
+		private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+		private System.Windows.Forms.ToolStripMenuItem configToolStripMenuItem;
+	}
 }

@@ -34,7 +34,7 @@ namespace BMS
 			this.grvData1 = new DevExpress.XtraGrid.Views.Grid.GridView();
 			this.colCode = new DevExpress.XtraGrid.Columns.GridColumn();
 			this.colStand = new DevExpress.XtraGrid.Columns.GridColumn();
-			this.colstd = new DevExpress.XtraGrid.Columns.GridColumn();
+			this.colValue = new DevExpress.XtraGrid.Columns.GridColumn();
 			this.lbCurrentATC = new System.Windows.Forms.Label();
 			this.lbSTD = new System.Windows.Forms.Label();
 			this.lbNumberProduct = new System.Windows.Forms.Label();
@@ -105,12 +105,13 @@ namespace BMS
 			this.grvData1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.colCode,
             this.colStand,
-            this.colstd});
+            this.colValue});
 			this.grvData1.GridControl = this.grdData1;
 			this.grvData1.Name = "grvData1";
 			this.grvData1.OptionsView.ShowColumnHeaders = false;
 			this.grvData1.OptionsView.ShowGroupPanel = false;
 			this.grvData1.OptionsView.ShowIndicator = false;
+			this.grvData1.RowCellStyle += new DevExpress.XtraGrid.Views.Grid.RowCellStyleEventHandler(this.grvData1_RowCellStyle);
 			// 
 			// colCode
 			// 
@@ -119,6 +120,7 @@ namespace BMS
 			this.colCode.Name = "colCode";
 			this.colCode.Visible = true;
 			this.colCode.VisibleIndex = 0;
+			this.colCode.Width = 115;
 			// 
 			// colStand
 			// 
@@ -127,14 +129,20 @@ namespace BMS
 			this.colStand.Name = "colStand";
 			this.colStand.Visible = true;
 			this.colStand.VisibleIndex = 1;
+			this.colStand.Width = 115;
 			// 
-			// colstd
+			// colValue
 			// 
-			this.colstd.Caption = "std";
-			this.colstd.FieldName = "Std";
-			this.colstd.Name = "colstd";
-			this.colstd.Visible = true;
-			this.colstd.VisibleIndex = 2;
+			this.colValue.AppearanceCell.Options.UseTextOptions = true;
+			this.colValue.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+			this.colValue.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+			this.colValue.AppearanceCell.TextOptions.WordWrap = DevExpress.Utils.WordWrap.Wrap;
+			this.colValue.Caption = "Value";
+			this.colValue.FieldName = "Value";
+			this.colValue.Name = "colValue";
+			this.colValue.Visible = true;
+			this.colValue.VisibleIndex = 2;
+			this.colValue.Width = 115;
 			// 
 			// lbCurrentATC
 			// 
@@ -146,7 +154,6 @@ namespace BMS
 			this.lbCurrentATC.Name = "lbCurrentATC";
 			this.lbCurrentATC.Size = new System.Drawing.Size(121, 130);
 			this.lbCurrentATC.TabIndex = 8;
-			this.lbCurrentATC.Text = "12";
 			this.lbCurrentATC.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// lbSTD
@@ -159,7 +166,6 @@ namespace BMS
 			this.lbSTD.Name = "lbSTD";
 			this.lbSTD.Size = new System.Drawing.Size(121, 130);
 			this.lbSTD.TabIndex = 5;
-			this.lbSTD.Text = "1000";
 			this.lbSTD.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// lbNumberProduct
@@ -173,12 +179,11 @@ namespace BMS
 			this.tableLayoutPanel1.SetRowSpan(this.lbNumberProduct, 2);
 			this.lbNumberProduct.Size = new System.Drawing.Size(150, 260);
 			this.lbNumberProduct.TabIndex = 4;
-			this.lbNumberProduct.Text = "1000";
 			this.lbNumberProduct.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// lbKnifeCode
 			// 
-			this.lbKnifeCode.BackColor = System.Drawing.Color.Silver;
+			this.lbKnifeCode.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(218)))), ((int)(((byte)(225)))), ((int)(((byte)(243)))));
 			this.lbKnifeCode.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.tableLayoutPanel1.SetColumnSpan(this.lbKnifeCode, 2);
 			this.lbKnifeCode.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -187,12 +192,11 @@ namespace BMS
 			this.lbKnifeCode.Name = "lbKnifeCode";
 			this.lbKnifeCode.Size = new System.Drawing.Size(242, 48);
 			this.lbKnifeCode.TabIndex = 3;
-			this.lbKnifeCode.Text = "HOB 1";
 			this.lbKnifeCode.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// lbGoodsCode
 			// 
-			this.lbGoodsCode.BackColor = System.Drawing.Color.Aqua;
+			this.lbGoodsCode.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(255)))), ((int)(((byte)(205)))));
 			this.lbGoodsCode.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.lbGoodsCode.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.lbGoodsCode.Location = new System.Drawing.Point(140, 0);
@@ -200,7 +204,6 @@ namespace BMS
 			this.lbGoodsCode.Name = "lbGoodsCode";
 			this.lbGoodsCode.Size = new System.Drawing.Size(150, 48);
 			this.lbGoodsCode.TabIndex = 1;
-			this.lbGoodsCode.Text = "ACT199G-1";
 			this.lbGoodsCode.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// lbName
@@ -215,7 +218,6 @@ namespace BMS
 			this.tableLayoutPanel1.SetRowSpan(this.lbName, 3);
 			this.lbName.Size = new System.Drawing.Size(140, 308);
 			this.lbName.TabIndex = 0;
-			this.lbName.Text = "HOB 1";
 			this.lbName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// grdData
@@ -242,6 +244,7 @@ namespace BMS
 			this.grvData.OptionsView.ShowColumnHeaders = false;
 			this.grvData.OptionsView.ShowGroupPanel = false;
 			this.grvData.OptionsView.ShowIndicator = false;
+			this.grvData.CustomDrawCell += new DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventHandler(this.grvData_CustomDrawCell);
 			// 
 			// colKnifeDetailCode
 			// 
@@ -254,7 +257,7 @@ namespace BMS
 			this.colKnifeDetailCode.Name = "colKnifeDetailCode";
 			this.colKnifeDetailCode.Visible = true;
 			this.colKnifeDetailCode.VisibleIndex = 0;
-			this.colKnifeDetailCode.Width = 527;
+			this.colKnifeDetailCode.Width = 115;
 			// 
 			// colRealValue
 			// 
@@ -271,7 +274,7 @@ namespace BMS
 			this.colRealValue.Name = "colRealValue";
 			this.colRealValue.Visible = true;
 			this.colRealValue.VisibleIndex = 2;
-			this.colRealValue.Width = 543;
+			this.colRealValue.Width = 114;
 			// 
 			// colStandardValue
 			// 
@@ -284,7 +287,7 @@ namespace BMS
 			this.colStandardValue.Name = "colStandardValue";
 			this.colStandardValue.Visible = true;
 			this.colStandardValue.VisibleIndex = 1;
-			this.colStandardValue.Width = 545;
+			this.colStandardValue.Width = 115;
 			// 
 			// lbATC
 			// 
@@ -295,7 +298,6 @@ namespace BMS
 			this.lbATC.Name = "lbATC";
 			this.lbATC.Size = new System.Drawing.Size(121, 130);
 			this.lbATC.TabIndex = 6;
-			this.lbATC.Text = "20";
 			this.lbATC.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// lbCurrentSTD
@@ -307,7 +309,6 @@ namespace BMS
 			this.lbCurrentSTD.Name = "lbCurrentSTD";
 			this.lbCurrentSTD.Size = new System.Drawing.Size(121, 130);
 			this.lbCurrentSTD.TabIndex = 11;
-			this.lbCurrentSTD.Text = "200";
 			this.lbCurrentSTD.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
 			// 
 			// ucModel
@@ -347,7 +348,7 @@ namespace BMS
         private DevExpress.XtraGrid.Views.Grid.GridView grvData1;
         private DevExpress.XtraGrid.Columns.GridColumn colCode;
         private DevExpress.XtraGrid.Columns.GridColumn colStand;
-        private DevExpress.XtraGrid.Columns.GridColumn colstd;
+        private DevExpress.XtraGrid.Columns.GridColumn colValue;
 		private System.Windows.Forms.Label lbCurrentSTD;
 	}
 }

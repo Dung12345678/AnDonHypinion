@@ -10,6 +10,7 @@ namespace HP
 	public static class Global
 	{
 		static string _ConnectionString = @"Server=LAPTOP-G3GTTN00\SQLEXPRESS;Database=HypoidPinion;uid=sa;pwd=123@123a;";
+		//static string _ConnectionString = @"Server=172.21.9.248;Database=HypoidPinion;uid=sa;pwd=sumi@sumi#;";
 		//static string _ConnectionString = "";
 		public static string ConnectionString
 		{

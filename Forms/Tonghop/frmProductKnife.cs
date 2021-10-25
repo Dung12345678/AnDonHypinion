@@ -119,5 +119,13 @@ namespace BMS
 			}
 		}
 
+		private void configToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+			frmStageMachine frm = new frmStageMachine();
+			if(frm.ShowDialog()==DialogResult.OK)
+			{
+				loadDataGrv();
+			}	
+		}
 	}
 }

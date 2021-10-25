@@ -70,6 +70,15 @@ namespace BMS
 					lbKnifeCode.Text = TextUtilsHP.ToString(ds.Tables[0].Rows[0]["KnifeCode"]);
 
 				}
+				else
+				{
+					lbGoodsCode.Text = "";
+					lbSTD.Text = "";
+					lbATC.Text = "";
+					lbCurrentATC.Text = "";
+					lbCurrentSTD.Text = "";
+					lbKnifeCode.Text = "";
+				}	
 				grdData.DataSource = ds.Tables[1]; // jig
 				grdData1.DataSource = ds.Tables[2];//Tool
 												   //Đếm
@@ -82,5 +91,20 @@ namespace BMS
 			//	}                
 		}
 
+		private void grvData_CustomDrawCell(object sender, DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventArgs e)
+		{
+			if(e.Column==colRealValue)
+			{
+				e.Appearance.BackColor = Color.FromArgb(0,255,255);
+			}	
+		}
+
+		private void grvData1_RowCellStyle(object sender, DevExpress.XtraGrid.Views.Grid.RowCellStyleEventArgs e)
+		{
+			if (e.Column == colValue)
+			{
+				e.Appearance.BackColor = Color.FromArgb(0, 255, 255);
+			}
+		}
 	}
 }
